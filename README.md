@@ -1,6 +1,9 @@
 # Jamf-Policy-CLI-Parameters
 Example script to pass custom values to a script that is called from a Jamf policy event/trigger CLI
 
+Example command:
+`sudo jamf policy -event policyname -p1 "paramater 1" -p2 "paramater 2" -p3 "paramater 3"`
+
 
 Based on Jamf Feature Request:
 
